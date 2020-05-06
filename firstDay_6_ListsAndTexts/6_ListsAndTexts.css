@@ -1,0 +1,23 @@
+
+html {
+    font-family: 'Bitter', ital;
+    font-size: 20px;
+    color: #9c7303;
+}
+
+header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #c99608;
+}
+
+ul {
+    color: #523c02;
+    margin: 5px;
+    list-style-type: decimal
+}
+
+ol {
+    list-style-type: disc;
+    list-style-position: inside;
+}
