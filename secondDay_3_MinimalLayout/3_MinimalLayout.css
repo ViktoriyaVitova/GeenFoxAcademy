@@ -1,0 +1,18 @@
+img {
+    width: 150px;
+}
+
+html {
+    font-family:"Bitter";
+}
+div {
+    display: flex;
+  }
+
+section {
+    width: 200px;
+    text-align: center;
+}
+a {
+display: block;
+}

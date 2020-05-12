@@ -1,0 +1,14 @@
+a {
+display: block;
+margin: 10px;
+color: green;
+text-decoration: none;
+font-size: 20px;
+}
+
+a:active {
+    color: #489c3b;
+}
+a:visited {
+    color: #a9ad36;
+}

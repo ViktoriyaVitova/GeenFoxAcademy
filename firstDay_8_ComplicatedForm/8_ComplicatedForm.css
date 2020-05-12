@@ -1,6 +1,5 @@
 html{
     font-family :"Bitter";
-    text-transform: uppercase;
     font-size: 20px;
     color: #9c7303;
 }
@@ -15,9 +14,12 @@ input {
     
 }
 
-label {
-    display: block;
-    margin: 5px;
+lable {
+    vertical-align: top;
+}
+
+input[type="radio"]{
+    vertical-align: baseline;
 }
 
 button {
@@ -25,8 +27,22 @@ button {
     text-transform: uppercase;
     font-size: 20px;
     color: #9c7303;
-    background-color:#ede437;
+
     margin: 5px;
-    border-radius: 40px;
+
     border: none;
 }
+fieldset {
+    border: 1px solid #9c7303;
+    padding: 12px 20px;
+}
+
+legend {
+    padding: 10px;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+  }
+

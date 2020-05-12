@@ -1,0 +1,69 @@
+<html lang="cs">
+
+<head>
+    <link rel="stylesheet" href="8_ComplicatedForm.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Karla&family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
+</head>
+<!-- http://stayathome-syllabus.greenfox.academy/week01/exercises/complicated-form.html -->
+
+<body>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Interesting application form :)</legend>
+                <fieldset>
+                    <legend>What is your name?</legend>
+                    <input name="name">
+                </fieldset>
+                <fieldset>
+                    <legend>What is your favorite color?</legend>
+                    <div>
+                        <input type="checkbox" name="red" id="red">
+                        <label for="red">Red</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="green" id="green">
+                        <label for="green">Green</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="blue" id="blue">
+                        <label for="blue">Blue</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="other" id="other">
+                        <label for="other">Other</label>
+                        <input type="text" name="otherInput" id="otherInput">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Would you like to become a developer?</legend>
+                    <div>
+                        <input type="radio" name="yes" id="yes">
+                        <label for="yes">Yes</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="ano" id="ano">
+                        <label for="ano">Ano</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="ja" id="ja">
+                        <label for="ja">Ja</label>
+                    </div>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Why would you like to become a developer?</legend>
+                    <input type="text" name="reason" id="reason">
+                </fieldset>
+                <button>Submit</button>
+
+            </fieldset>
+
+        </form>
+
+    </main>
+</body>
+
+</html>

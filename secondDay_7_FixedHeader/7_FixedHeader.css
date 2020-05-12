@@ -1,0 +1,57 @@
+.yellow {
+    background: yellow;
+    width: 700px;
+    height: 500px; 
+    flex-grow: 4; 
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+
+
+.cyan {
+    background: cyan;
+    height: 30px; 
+    width: 90px;
+    margin: 5px;
+}
+
+.lime {
+    background: lime;
+    height: 500px; 
+    width: 300px;
+    flex-grow: 1; 
+    margin-right: 100px;
+    margin-top: 5px;
+
+}
+
+
+.navigationHeader {
+    background: purple;
+    width: 1000px;
+    height: 70px; 
+    position: fixed;
+    top: 0;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 1000px;
+  
+}
+
+.footer {
+    background: lightgray;
+    height: 80px;
+    width: 800px;
+    margin-left: 100px;
+}

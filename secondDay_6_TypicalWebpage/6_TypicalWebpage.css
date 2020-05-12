@@ -1,0 +1,42 @@
+.yellow {
+    background: yellow;
+    width: 700px;
+    height: 500px; /* we know */
+    flex-grow: 4; /* we know */
+}
+
+
+
+.cyan {
+    background: cyan;
+    height: 30px; /* we know */
+    width: 90px;
+    margin: 5px;
+}
+
+.lime {
+    background: lime;
+    height: 500px; /* we know */
+    width: 300px;
+    flex-grow: 1; /* we know */
+}
+
+
+.navigationHeader {
+    background: purple;
+    width: 1000px;
+    height: 50px; /* we know */
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 1000px;
+}
