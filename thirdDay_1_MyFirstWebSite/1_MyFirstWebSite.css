@@ -1,0 +1,100 @@
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: #222;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+    font-size: 22px;
+    margin: 20px;
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    color: #222;
+    font-weight: lighter;
+}
+
+sub {
+    font-family: 'Merriweather';
+    font-style: italic;
+    size: 15px;
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 10px;
+}
+
+sub::before {
+    content: ' " ';
+    font-size: 32px;
+    font-weight: bold;
+}
+
+ul {
+    margin-left: 50px;
+    padding: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+    font-size: 24px;
+    text-align: left;
+}
+
+li {
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+header {
+    position: relative;
+    display: flex;
+    left: 25%;
+    width: 50%;
+    height: 500px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+}
+
+.anakinSkywalker {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: left;
+    list-style-type: none;
+    left: 25%;
+    width: 50%;
+    align-self:flex-end;
+    color: white;
+    text-shadow: 0 0 30px black;
+}
+
+.anakinSkywalker > h1,
+.anakinSkywalker > h2 {
+    color: inherit;
+    font-weight: 400;
+}
+
+.upperCase {
+    text-transform: uppercase;
+}
+
+section {
+    left: 35%;
+    width: 35%;
+    position: relative;
+}
+
+hr {
+    color: #222;
+    background-color: #222;
+    height: 3px;
+}
