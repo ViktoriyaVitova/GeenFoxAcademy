@@ -1,0 +1,9 @@
+p {
+    border: 0.3mm solid black;
+    width: 700px;
+    height: 150px;
+    margin: 0px;
+}
+p:hover {
+    background-color: red;
+  }
