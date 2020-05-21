@@ -1,0 +1,95 @@
+main {
+    background-color: #88aeeb;
+    position: relative;
+    left: 25%;
+    width: 50%;
+    height: 500px;
+}
+
+.userInput {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+li {
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+.textStyle {
+    font-family: 'Poppins', sans-serif;
+    color: #424347;
+}
+
+button {
+    size: 20px;
+    background-color: #b1b5c7;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+
+.doneIcon {
+    background-color: transparent;
+    border-radius: 8px;
+    height: 20px;
+    width: 20px;
+}
+
+.doneIcon:hover {
+    height: 25px;
+    width: 25px;
+}
+
+.deleteIcon {
+    background-color: transparent;
+    border-radius: 8px;
+    height: 20px;
+    width: 20px;
+}
+
+.deleteIcon:hover {
+    height: 25px;
+    width: 25px;
+}
+
+input {
+    height: 40px;
+    width: 250px;
+    size: 16px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+ul {
+    position: relative;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 0 40px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+i {
+    margin-right: 10px;
+}

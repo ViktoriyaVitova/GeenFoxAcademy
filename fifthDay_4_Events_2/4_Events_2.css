@@ -1,0 +1,21 @@
+
+button {
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+label {
+    font-weight: bold;
+}
+
+.style {
+    font-family: 'Bitter';
+    font-size: 20px;
+    color: #413209;
+}
